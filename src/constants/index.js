@@ -24,9 +24,13 @@ import {
     tripguide,
     threejs,
     kua,
+    alphaone,
+    munyhom,
     solsync,
     alex,
-    chow
+    chow,
+    webby,
+    neubee
 } from "../assets";
 
 export const navLinks = [
@@ -46,19 +50,19 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Full Stack Web Dev",
         icon: web,
     },
     {
-        title: "Web3 Dev",
+        title: "Mobile Dev",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "DevOps",
         icon: backend,
     },
     {
-        title: "Figma Designer",
+        title: "UI/UX Design",
         icon: creator,
     },
 ];
@@ -169,6 +173,70 @@ const experiences = [
             "Master backend development with Node",
             "Integrating with MongoDB database",
             "Implementing Express.js as the framework in backend to ease the communication with backend",
+        ],
+    },
+    {
+        title: "Typescript Backend Internship",
+        company_name: "Webby Group",
+        icon: webby,
+        iconBg: "#E6DEDD",
+        date: "August 2024 - November 2024",
+        points: [
+            "Collaborated closely with senior developers in an agile team environment",
+            "Managed backend operations with PostgreSQL and Redis databases",
+            "Improved API efficiency and performance",
+            "Built scalable and maintainable code",
+        ],
+    },
+    {
+        title: "Software Support",
+        company_name: "Alphaone Formula",
+        icon: alphaone,
+        iconBg: "#E6DEDD",
+        date: "December 2024 - February 2024",
+        points: [
+            "Work with gasket specialists company in oil & gas industry to provide software solutions",
+            "Mobile application built with React Native and Supabase to enable offline storage",
+            "Inspection report management system utilizing Google Apps Script and Google Sheets to process and export collected data in predefined formats",
+        ],
+    },
+    {
+        title: "Bachelor's in Cloud Engineering",
+        company_name: "Asia Pacific University",
+        icon: tesla,
+        iconBg: "#E6DEDD",
+        date: "February 2025 - February 2027",
+        points: [
+            "Dived into Network Security, Switching and Routing, Data Center Infra",
+            "Gain Cloud Knowledge in AWS, Azure, and GCP",
+            "Networking and build soft skills when working in a team",
+        ],
+    },
+    {
+        title: "Munyhom Mobile Application",
+        company_name: "Munymunyhom Enterprise",
+        icon: munyhom,
+        iconBg: "#E6DEDD",
+        date: "January 2025 - May 2025",
+        points: [
+            "Mobile cashback application in partnership with Lazada to provide an average of 5% cashback to users",
+            "Frontend built using React Native and Apollo Graphql",
+            "Backend built using Nest.js. + PostgreSQL + Docker",
+            "Published in App Store with AWS EC2 cloud deployment for server",
+        ],
+    },
+    {
+        title: "Hackathon Sprint",
+        company_name: "Beningging & Neubee",
+        icon: neubee,
+        iconBg: "#E6DEDD",
+        date: "May 2025 - October 2025",
+        points: [
+            "Finalist in Great AI Malaysia Hackathon 2025 to build an AI Crowd Control System",
+            "Joined Devmatch 2025 to build a blockchain-powered aid distribution system",
+            "Joined Payhack 2025 to build a solution to easily onboard SMEs",
+            "Joined Kitahack 2025 to build an AI health lifestyle mobile application",
+            "Joined ETH Uprising Hackathon 2025 to build a transparent salary and experience sharing platform using scroll and solidity",
         ],
     },
 ];

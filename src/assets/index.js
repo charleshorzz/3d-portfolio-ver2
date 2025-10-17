@@ -27,6 +27,10 @@ import shopify from "./company/nus.png";
 import starbucks from "./company/angela.png";
 import tesla from "./company/apu.png";
 import solsync from "./company/solsync-logo.png"
+import webby from "./company/webby.png"
+import munyhom from "./company/munyhom.png"
+import alphaone from "./company/alpheone.jpeg"
+import neubee from "./company/neubee.png"
 
 import carrent from "./restaurant.png";
 import jobit from "./automation.png";
@@ -47,9 +51,12 @@ export {
   website,
   menu,
   close,
+  alphaone,
+  munyhom,
   css,
   docker,
   figma,
+  neubee,
   git,
   html,
   javascript,
@@ -62,6 +69,7 @@ export {
   typescript,
   threejs,
   proshop,
+  webby,
   shopify,
   starbucks,
   tesla,

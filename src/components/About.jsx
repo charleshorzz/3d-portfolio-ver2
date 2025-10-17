@@ -39,7 +39,7 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a freshman in software engineering field with some experince in Javascript, expertise in React and Node.js. Due to my hardwork, I've been bald during my college life. Therefore, you can trust my expertise.
+       I'm a passionate software engineer specializing in TypeScript, full-stack development, and cloud engineering. With hands-on experience in CI/CD pipelines, automation using n8n, and integrating AI tools to build scalable systems. I may have lost some hair along the way—but that just proves the dedication is real.
       </motion.p>
 
       {/* flex wrap could make a container to group the cards together */}
